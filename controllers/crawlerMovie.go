@@ -66,5 +66,4 @@ func CrawlMovie(month int, day int) {
 	startUrl := fmt.Sprintf("https://www.imdb.com/search/name/?birth_monthday=%d-%d", month, day)
 
 	c.Visit(startUrl)
-
 }
